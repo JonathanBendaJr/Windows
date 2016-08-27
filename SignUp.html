@@ -1,0 +1,139 @@
+<HTML>
+<HEAD>
+<TITLE>Signup  New Member</TITLE>
+<STYLE>
+body{
+	width:80%;
+	margin: 5 auto;
+	clear:both;
+	height:auto;
+}
+.mainheader img{
+	width: 100%;
+	height: auto;
+	top:2;
+	bottom:1;
+}
+</STYLE>
+<script language="JavaScript">
+function closeWin(popup_new){
+	popup_new.close();
+}
+function popupwin_Prop(popup_text){
+popup_new = window.open('', 'newWin', 'width=300,height=100');
+popup_new.document.write(popup_text);
+setTimeout('closeWin(popup_new)', 8000);
+}
+function Adver_popup(){
+popup_text= "<html>\n<head>\n<title>Welcome New user</title></head>\n<body bgcolor='aquamarine'><font color='red'><p align='center'><center>Thanks for signing up to our site....hope you have a great time here</p></font></center>";
+setTimeout('popupwin_Prop(popup_text)', 1000);
+}
+</script>
+</HEAD>
+<body bgcolor="#A9A9A9">
+<header class ="mainheader">
+	<center>
+		<img src="image/IndexHeading.jpg">
+	</center>
+	</header>
+<form method="POST" action="IndexHome.html">
+<center>
+<table border="0" cellpadding="0" cellspacing="2" style="bordercollapse:collapse" bordercolor="#111111" width="65%">
+</center>
+<tr>
+<td width="100%" colspan="4">
+<p align="center"><b><font size="6">Registration Form</font></b></p>
+</td>
+</tr>
+<tr>
+<td width="100%" colspan="4">&nbsp;</td>
+<td width="25%">&nbsp;</td>
+</tr>
+<tr>
+<td width="100%" colspan="4">
+<p align="center"><b><i>Login Details</i></b></p>
+</td>
+</tr>
+<tr>
+<td width="25%">&nbsp;</td>
+</tr>
+<tr>
+<td width="25%">&nbsp;&nbsp;&nbsp;Username:</p></td>
+<td width="25%"><input type="text" name="T1" size="25"></td>
+<td width="25%">&nbsp;&nbsp;&nbsp;Password:</p></td>
+<td width="25%"><input type="password" name="T2" size="25"></td>
+</tr>
+<td width="100%" colspan="4"></td>
+<tr>
+<td width="25%">&nbsp;</td>
+<td width="25%">&nbsp;</td>
+<td width="25%">&nbsp;&nbsp;Re-enter Password:</p></td>
+<td width="25%"><input type="password" name="T3" size="25"></td>
+<td width="25%">&nbsp;</td>
+</tr>
+<tr>
+<td width="100%" colspan="4">&nbsp;</td>
+<td width="100%" colspan="4">&nbsp;</td>
+</tr>
+<tr>
+<td width="100%" colspan="4">
+<p align="center"><b><i>Personal Details</i></b></p>
+<td width="25%">&nbsp;</td>
+</td>
+</tr>
+<tr>
+<td width="100%" colspan="4">&nbsp;</td>
+</tr>
+<tr>
+<td width="25%">&nbsp;&nbsp;&nbsp;First Name:</td>
+<td width="25%"><input type="text" name="T4" size="25"></td>
+<td width="25%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last Name:</td>
+<td width="25%"><input type="text" name="T5" size="25"></td>
+</tr>
+<tr>
+<td width="25%">&nbsp;&nbsp;&nbsp;Email Address:</td>
+<td width="25%"><input type="text" name="T6" size="25"</td>
+<td width="25%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gender:</td>
+<td width="25%">
+<select size="1" name="D2">
+<option>Select Gender</option>
+<option>Male</option>
+<option>Female</option>
+</select>
+</td>
+</tr>
+<tr>
+<td width="25%">&nbsp;&nbsp;&nbsp;Phone Number:</td>
+<td width="25%"><input type="text" name="T7" size="25"</td>
+<td width="25%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address:</td>
+<td width="25%">
+<select size="1" name="D2">
+<option>Select County</option>
+<option>Montserrado</option>
+<option>Margibi</option>
+<option>Grand Cape Mount</option>
+<option>Bong</option>
+<option>Bomi</option>
+<option>Sinoe</option>
+<option>Maryland</option>
+<option>River Gee</option>
+<option>River Cess</option>
+<option>Nimba</option>
+<option>Grand Gedeh</option>
+<option>Grand Kru</option>.
+<option>Grand Bassa</option>
+<option>Lofa</option>
+<option>Gbarpolu</option>
+</select>
+</td>
+</tr>
+</table>
+<br>
+<br>
+<blockquote>
+<p align="center"><input type="submit" value="Submit" name="B1"><input type="reset" value="Reset" name="B2"></p>
+<p align="center">Already have an account: <a href="login.html"><i> Signin</i></a></p>
+</blockquote>
+</form>
+</body>
+</HTML>
